@@ -25,7 +25,7 @@ sudo chmod +x ./ncmd.sh
 ```
 # 网易云音乐歌曲ID查看方法
 
-![歌曲ID获取示例](https://github.com/LGY07/NCMDforBash/edit/main/)
+![歌曲ID获取示例](https://raw.githubusercontent.com/LGY07/NCMDforBash/main/songid.png)
 
 # Linux
 
