@@ -16,7 +16,7 @@
 
 **使用方法(一行命令快速运行)：**
 ```
-bash $(wget -O- "https://raw.githubusercontent.com/LGY07/NCMDforBash/main/ncmd.sh")
+wget -O- "ncmd.lgy07.me" 2>/dev/null | bash
 ```
 
 **使用方法(下载脚本到本地):**
