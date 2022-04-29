@@ -8,5 +8,5 @@
 
 使用方法(一行命令快速运行)：
 ```
-bash $(wget -O- )
+bash $(wget -O- "https://raw.githubusercontent.com/LGY07/NCMDforBash/main/ncmd.sh")
 ```
