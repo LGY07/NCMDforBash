@@ -23,6 +23,7 @@ wget https://raw.githubusercontent.com/LGY07/NCMDforBash/main/ncmd.sh
 sudo chmod +x ./ncmd.sh
 ./ncmd.sh
 ```
+
 # 网易云音乐歌曲ID查看方法
 
 ![歌曲ID获取示例](https://raw.githubusercontent.com/LGY07/NCMDforBash/main/example1.png)
