@@ -12,6 +12,8 @@
 
 >[Android](https://github.com/LGY07/NCMDforBash/blob/main/README.md#androidtermux)
 
+下载发行版:https://github.com/LGY07/NCMDforBash/releases
+
 **使用方法(一行命令快速运行)：**
 ```
 bash $(wget -O- "https://raw.githubusercontent.com/LGY07/NCMDforBash/main/ncmd.sh")
