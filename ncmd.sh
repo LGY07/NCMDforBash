@@ -7,14 +7,14 @@ if [ "$?" != "0" ]; then
     echo -e "\033[33mDo you want to try installing wget?\033[0m"
     read -p "[Y/n](default=n)" install
     if [[ $install == "Y" || $install == "y" ]];then
+        hash dnf > /dev/null 2>&1
+        if [ "$?" == "0" ]; then dnf check-update -y;sudo dnf install wget -y && bash $0 $1 $2
+        fi
         hash pacman > /dev/null 2>&1
         if [ "$?" == "0" ]; then sudo pacman -Sy wget --noconfirm && bash $0 $1 $2
         fi
         hash apt-get > /dev/null 2>&1
         if [ "$?" == "0" ]; then apt-get update wget -y;sudo apt-get install wget -y && bash $0 $1 $2
-        fi
-        hash dnf > /dev/null 2>&1
-        if [ "$?" == "0" ]; then dnf check-update -y;sudo dnf install wget -y && bash $0 $1 $2
         fi
     fi
 exit
