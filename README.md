@@ -77,4 +77,4 @@ Android可以通过Termux或者UserLand等软件运行此脚本
 
 1. 安装F-droid  [F-droid官网](https://f-droid.org/)
 2. 从F-droid搜索并安装Termux(带有软件包管理器的版本)
-3. 在Termux中安装wget,方法同[pt安装wget](https://github.com/LGY07/NCMDforBash/main/README.md#debian%E5%8C%85%E5%90%ABubuntukali%E7%AD%89%E8%A1%8D%E7%94%9F%E7%89%88%E6%9C%AC)
+3. 在Termux中安装wget,方法同[apt安装wget](https://github.com/LGY07/NCMDforBash/main/README.md#debian%E5%8C%85%E5%90%ABubuntukali%E7%AD%89%E8%A1%8D%E7%94%9F%E7%89%88%E6%9C%AC)
