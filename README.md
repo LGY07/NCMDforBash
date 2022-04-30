@@ -1,4 +1,4 @@
-# NCMDforBash
+# NCMD for Bash
 
 [NCMD](https://github.com/Ltfjx/NCM_Downloader)的Bash实现,感谢[勒特夫杰克斯](https://github.com/Ltfjx/)先生制作的[NCMD](https://github.com/Ltfjx/NCM_Downloader)
 
