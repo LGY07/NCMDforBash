@@ -36,7 +36,7 @@ sudo chmod +x ./ncmd.sh
 
 或者手动安装wget:
 
-### Red Hat Enterprise Linux(包含Fedora,RockyOS等衍生版本,Fedora推荐不推荐方法)
+### Red Hat Enterprise Linux(包含Fedora,RockyOS等衍生版本,Fedora不推荐此方法)
 >yum软件仓库
 ```
 sudo yum install wget
