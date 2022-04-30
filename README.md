@@ -26,6 +26,18 @@ sudo chmod +x ./ncmd.sh
 ./ncmd.sh
 ```
 
+**安装到本地**
+```
+wget https://raw.githubusercontent.com/LGY07/NCMDforBash/main/ncmd.sh
+sudo mkdir /opt/ncmd
+sudo mv ./ncmd.sh /opt/ncmd/ncmd.sh
+sudo ln -sf /opt/ncmd/ncmd.sh /usr/bin/ncmd
+```
+检查是否成功安装：
+```
+ncmd --help
+```
+
 # 网易云音乐歌曲ID查看方法
 
 ![歌曲ID获取示例](https://raw.githubusercontent.com/LGY07/NCMDforBash/main/example1.png)
@@ -70,7 +82,7 @@ WSL安装方法,需要 Windows 10 版本 2004 及更高版本（内部版本 190
 2. 启用 `适用于Linux的Windows子系统`
 3. 重启电脑使更改生效
 4. 安装一个WSL，可以通过`Microsoft Store`或者[wsl.exe](https://docs.microsoft.com/zh-cn/windows/wsl/setup/environment)
-5. 根据[Linux的wget安装教程](https://github.com/LGY07/NCMDforBash/blob/main/README.md#linux)安装wget
+5. 根据对应的[Linux的wget安装教程](https://github.com/LGY07/NCMDforBash/blob/main/README.md#linux)安装wget
 
 # Android(Termux)
 
@@ -81,3 +93,5 @@ Android可以通过Termux或者UserLand等软件运行此脚本
 1. 安装F-droid  [F-droid官网](https://f-droid.org/)
 2. 从F-droid搜索并安装Termux(带有软件包管理器的终端模拟器)
 3. 在Termux中安装wget,方法同[Debian安装wget](https://github.com/LGY07/NCMDforBash/blob/main/README.md#debian%E5%8C%85%E5%90%ABubuntukali%E7%AD%89%E8%A1%8D%E7%94%9F%E7%89%88%E6%9C%AC)
+
+>**UserLand用户请根据安装的发行版选择对应的[Linux教程](https://github.com/LGY07/NCMDforBash/blob/main/README.md#linux)**
