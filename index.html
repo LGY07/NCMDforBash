@@ -8,6 +8,7 @@ if [ "$?" != "0" ]; then
     read -p "[Y/n](default=n)" install
     if [[ $install == "Y" || $install == "y" ]];then
         if [[ $(uname -o) == "Android" ]];then apt-get update -y;apt-get install wget -y && bash $0 $1 $2
+        fi
         hash dnf > /dev/null 2>&1
         if [ "$?" == "0" ]; then dnf check-update -y;sudo dnf install wget -y && bash $0 $1 $2
         fi
